@@ -89,8 +89,9 @@ function Tastyrecipes() {
            <div>
                <div className="flex flex-col items-center justify-center mt-10"> 
                    <h2 className="text-4xl font-bold mb-4 text-gray-900">Simple and tasty recipes</h2> 
-                   <p className="text-gray-500 mt-3 mb-12 max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. ut labore magna aliqua. enim ad minim
+                   <p className="text-gray-500 mt-3 mb-12 max-w-2xl mx-auto">
+                       Foodieland is pure paradise for food lovers! From sizzling street eats to Insta-worthy desserts
+                       every corner is a flavor & adventure, Grab your crew, snap those pics, and taste your way through happiness!
                    </p>
                </div>
                <div>
@@ -109,8 +110,6 @@ function Tastyrecipes() {
                                    <div className="flex items-center gap-3 text-sm text-gray-500">
                                        <img src={recipe.img} alt={recipe.time} className="mr-2" />
                                        <span className="flex items-center gap-1">{recipe.time}</span>
-                                   </div>
-                                   <div className="flex items-center gap-3 text-sm text-gray-500 mt-2">
                                        <img src={recipe.img2} alt={recipe.text} className="mr-2" />
                                        <span className="flex items-center gap-1">{recipe.text}</span>
                                    </div>

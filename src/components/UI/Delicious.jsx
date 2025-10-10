@@ -72,8 +72,8 @@ function Delicious() {
         <section className="bg-gray-50 py-16 px-6 md:px-16">
             <div className="max-w-6xl mx-auto text-center mb-10">
                 <h2 className="text-3xl font-bold mb-6">Try this delicious recipe <br /> to make your day </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                   incididunt ut labore et dolore magna aliqua. ut labore magna aliqua. enim ad minim
+                <p>🍔✨ Foodieland is pure paradise for food lovers! From sizzling street eats to Insta-worthy desserts
+                   every corner is a flavor & adventure 😋🔥, Grab your crew, snap those pics, and taste your way through happiness!
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {testimony.map((item) => (

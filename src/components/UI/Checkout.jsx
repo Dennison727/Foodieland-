@@ -24,7 +24,8 @@ function Checkout() {
                         Check out<span className="text-black">@foodieland on instagram</span>
                     </h2>
                     <p className="text-gray-500 mt-3 mb-12 max-w-2xl mx-auto">
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut labore magna aliqua. enim ad minim 
+                       🍔✨ Foodieland is pure paradise for food lovers! From sizzling street eats to Insta-worthy desserts 
+                       every corner is a flavor & adventure 😋🔥, Grab your crew, snap those pics, and taste your way through happiness!
                     </p>
 
                     <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-4 justify-center mb-10">
@@ -36,9 +37,13 @@ function Checkout() {
                             </div>
                         ))}
                     </div>
-                    <button className="flex items-center justify-center mx-auto bg-black text-white px-5 py-2 rounded-full hover:bg-gray-800 transition">
+                    <button className="flex items-center justify-center mx-auto bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-100 transition">
                          Our instagram
-                        <img src="/icons/instagram.png" alt="instagram" className="ml-2"/>
+                         <a href="https://www.instagram.com">
+                            <img src="/icons/instagram.png"
+                             alt="instagram"
+                             className="ml-2"/>
+                         </a>
                     </button>
         </section>
     );

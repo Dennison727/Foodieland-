@@ -8,7 +8,8 @@ function Chef() {
                 <span className="text-green-600">chef in their own kitchen</span>
             </h1>
             <p className="text-gray-500 mt-6 mb-8 max-w-lg mx-auto lg:mx-0">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut labore magna aliqua. enim ad minim 
+               Foodieland is pure paradise for food lovers! From sizzling street eats to Insta-worthy desserts 
+               every corner is a flavor & adventure, Grab your crew, snap those pics, and taste your way through happiness!
             </p>
             <button className="bg-green-600 text-white py-2 px-4 rounded">Learn More</button>
         </div>
