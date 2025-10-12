@@ -4,6 +4,7 @@ import Healthy from "./Ul_recipes.jsx/Healthy";
 import Ingredients from "./Ul_recipes.jsx/ingredients";
 import Direction from "./Ul_recipes.jsx/Directions";
 import Subscribe from "./UI/Subscribe";
+import Recipes from "./Ul_recipes.jsx/Recipes";
 
 function Recipe() {
   return (
@@ -18,6 +19,10 @@ function Recipe() {
       </div>
       <div>
         <Subscribe />
+        <Recipes />
+      </div>
+      <div>
+        <Navbar />
       </div>
     </div>
   );
