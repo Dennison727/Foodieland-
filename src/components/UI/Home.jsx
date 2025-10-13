@@ -29,12 +29,12 @@ function Home(props) {
             </li>
             <li>
               <a href="/contact" className="text-gray-600 hover:text-gray-800 font-bold">
-                Contact
+                About us
               </a>
             </li>
             <li>
               <a href="/about" className="text-gray-600 hover:text-gray-800 font-bold">
-                About Us
+                Contact
               </a>
             </li>
           </ul>

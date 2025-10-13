@@ -23,12 +23,12 @@ function Navbar(props) {
                    </li>
                    <li>
                         <a href="/contact" className="text-gray-600 hover:text-orange-500 transition">
-                            Contact
+                            About us 
                         </a>
                    </li>
                    <li>
                         <a href="/about" className="text-gray-600 hover:text-orange-500 transition">
-                            About Us
+                           Contact 
                         </a>
                    </li>
                </ul>
