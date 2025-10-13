@@ -4,8 +4,9 @@ function Article () {
         <div className="max-w-4xl mx-auto text-center py-12 px-4">
             <h1 className="text-4xl font-bold mb-3">Blog & Article</h1>
             <p className="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua.
+                From comforting classics to bold new flavors, our blog serves up delicious ideas  
+                to inspire your next meal. Discover recipes, cooking tips, and food stories  
+                that bring people together at the table.
             </p>
             <div className="flex justify-center">
                 <div className="flex w-full max-w-md rounded-full overflow-hidden border border-gray-300">

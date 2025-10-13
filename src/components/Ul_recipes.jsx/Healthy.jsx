@@ -1,67 +1,63 @@
 
 function Healthy () {
     return (
-            <div className=" min-h-screen flex justify-center py-12 px-4">
-        <div className="relative max-w-6xl w-full bg-white rounded-2xl p-10 shadow-sm">
-            <div className="absolute top-10 right-10 flex items-center gap-6">
-            <button className="flex flex-col items-center">
-                <div className="bg-[#ebf7fb] p-5 rounded-full hover:scale-105 transition">
-                <img src="/icons/Print.png" alt="Print" className="w-5 h-5" />
+        <div className=" min-h-screen flex justify-center py-12 px-4">
+            <div className="relative max-w-6xl w-full bg-white rounded-2xl p-10 shadow-sm">
+                <div className="absolute top-10 right-10 flex items-center gap-6">
+                    <button className="flex flex-col items-center">
+                        <div className="bg-[#ebf7fb] p-5 rounded-full hover:scale-105 transition">
+                            <img src="/icons/Print.png" alt="Print" className="w-5 h-5" />
+                        </div>
+                        <span className="text-xs mt-2 font-medium text-gray-600 uppercase">
+                            PRINT
+                        </span>
+                    </button>
+                    <button className="flex flex-col items-center">
+                        <div className="bg-[#ebf7fb] p-5 rounded-full hover:scale-105 transition">
+                            <img src="/icons/Share.png" alt="Share" className="w-5 h-5" />
+                        </div>
+                        <span className="text-xs mt-2 font-medium text-gray-600 uppercase">
+                            Share
+                        </span>
+                    </button>
                 </div>
-                <span className="text-xs mt-2 font-medium text-gray-600 uppercase">
-                Print
-                </span>
-            </button>
-
-            <button className="flex flex-col items-center">
-                <div className="bg-[#ebf7fb] p-5 rounded-full hover:scale-105 transition">
-                <img src="/icons/Share.png" alt="Share" className="w-5 h-5" />
+                <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
+                    Healthy Japanese Fried Rice 
+                </h1>
+                <div className="flex flex-wrap items-center gap-8 mb-10 text-gray-600">
+                    <div className="flex items-center gap-3">
+                        <img
+                            src="/images/Ellipse.png"
+                            alt="Ellipse"
+                            className="w-10 h-10 rounded-full"
+                        />
+                        <div>
+                            <p className="font-semibold text-gray-800">John Smith</p>
+                            <p className="text-sm">15 March 2022</p>
+                        </div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <img src="/icons/Timer.png" alt="Prep Time" className="w-4 h-4" />
+                        <span className="text-sm">
+                            <strong>Prep Time:</strong> 15 Minutes
+                        </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <img src="/icons/Timer.png" alt="Cook Time" className="w-4 h-4" />
+                        <span className="text-sm">
+                            <strong>Cook Time:</strong> 15 Minutes
+                        </span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                        <img src="/icons/ForkKnife.png" alt="Food Type" className="w-4 h-4" />
+                        <span className="text-sm">Chicken</span>
+                    </div>
                 </div>
-                <span className="text-xs mt-2 font-medium text-gray-600 uppercase">
-                Share
-                </span>
-            </button>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-8">
-            Healthy Japanese Fried Rice
-            </h1>
-            <div className="flex flex-wrap items-center gap-8 mb-10 text-gray-600">
-            <div className="flex items-center gap-3">
-                <img
-                src="/images/Ellipse.png"
-                alt="Ellipse"
-                className="w-10 h-10 rounded-full"
-                />
-                <div>
-                <p className="font-semibold text-gray-800">John Smith</p>
-                <p className="text-sm">15 March 2022</p>
-                </div>
-            </div>
-
-            <div className="flex items-center gap-2">
-                <img src="/icons/Timer.png" alt="Prep Time" className="w-4 h-4" />
-                <span className="text-sm">
-                <strong>Prep Time:</strong> 15 Minutes
-                </span>
-            </div>
-
-            <div className="flex items-center gap-2">
-                <img src="/icons/Timer.png" alt="Cook Time" className="w-4 h-4" />
-                <span className="text-sm">
-                <strong>Cook Time:</strong> 15 Minutes
-                </span>
-            </div>
-
-            <div className="flex items-center gap-2">
-                <img src="/icons/ForkKnife.png" alt="Food Type" className="w-4 h-4" />
-                <span className="text-sm">Chicken</span>
-            </div>
-            </div>
-            <div className="flex flex-col md:flex-row items-start gap-10">
-            <div className="relative flex-1">
-                <img
-                src="/images/friedrice.png"
-                alt="Fried Rice"
+                <div className="flex flex-col md:flex-row items-start gap-10">
+                    <div className="relative flex-1">
+                        <img
+                            src="/images/friedrice.png"
+                            alt="Fried Rice"
                 className="w-full rounded-2xl"
                 />
                 <div className="absolute inset-0 flex justify-center items-center">
@@ -98,15 +94,10 @@ function Healthy () {
                 <p className="pt-10">hello </p>
             </div>
             </div>
-            {/* DESCRIPTION */}
-            <p className="mt-10 text-gray-600 leading-relaxed text-[15px] max-w-5xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+            <p className="mt-10  text-gray-600 leading-relaxed text-[15px] max-w-5xl">
+                Foodieland is pure paradise for food lovers! From sizzling street eats to 
+                Insta-worthy desserts every corner is a flavor & adventure, Grab your crew,
+                 snap those pics, and taste your way through happiness!
             </p>
         </div>
         </div>

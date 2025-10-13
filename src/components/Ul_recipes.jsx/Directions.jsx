@@ -3,8 +3,6 @@ function Directions () {
     return (
        <section className="max-w-4xl mx-auto p-6">
       <h2 className="text-2xl font-semibold mb-6">Directions</h2>
-      
-      {/* Step 1 */}
       <ol className="space-y-10">
         <li className="space-y-4">
           <div className="flex items-start space-x-3">
@@ -18,20 +16,16 @@ function Directions () {
               </p>
             </div>
           </div>
-
           <img
             src="/logo/she.png"
             alt="Cooking process"
             className="w-full rounded-md shadow-md"
           />
-
           <p className="text-gray-600 mt-2">
              Prepping your ingredients ahead of time 
              makes the cooking process smoother and more efficient.
           </p>
         </li>
-
-        {/* Step 2 */}
         <li className="space-y-4">
           <div className="flex items-start space-x-3">
             <input type="radio" name="main" className="w-4 h-4 rounded-full accent-green-300" />
@@ -45,8 +39,6 @@ function Directions () {
             </div>
           </div>
         </li>
-
-        {/* Step 3 */}
         <li className="space-y-4">
           <div className="flex items-start space-x-3">
             <input type="radio" name="main" className="w-4 h-4 rounded-full accent-green-300" />
